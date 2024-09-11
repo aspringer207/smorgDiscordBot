@@ -5,6 +5,6 @@ module.exports = {
 		.setName('now')
 		.setDescription('Replies with a UTC timestamp in millisectonds'),
 	async execute(interaction) {
-		await interaction.reply(getUTCMilliseconds());
+		await interaction.reply(Date.now());
 	},
 };
