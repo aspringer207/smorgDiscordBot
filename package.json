@@ -1,0 +1,21 @@
+{
+  "name": "smorgdiscordbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bufferutil": "^4.0.8",
+    "discord.js": "^14.16.1",
+    "utf-8-validate": "^6.0.4",
+    "zlib-sync": "^0.1.9"
+  },
+  "devDependencies": {
+    "eslint": "^9.10.0"
+  }
+}
